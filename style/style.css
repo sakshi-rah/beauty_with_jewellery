@@ -4,5 +4,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(15, 104, 104);
+    color: white;
+}
+
+.logoImg{
+    width: 100px;
+    padding-left: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-right: 40px;
+}
+
+.navbar a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    /* img and text both section */
+    /* margin: 20px */
+}
+.heroImg{
+    /* img and text both section */
+    /* width: 50%;
+    height: 80vh; */
+    /* only image section */
+    width: 100%;
+    height: 100vh;
+}
+
+.hero p{
+    text-align: center;
+    margin-top: 250px;
 }
