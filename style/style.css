@@ -8,12 +8,15 @@
 }
 
 .header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
     background-color: rgb(15, 104, 104);
     color: #feebe7;
+    /* position: fixed; */
+    z-index: 2;
 }
 
 .logoImg{
@@ -58,8 +61,7 @@
 .mainHeading{
     text-align: center;
     color: rgb(15, 104, 104);
-    margin: 20px;
-
+    padding-top: 20px;
 }
 
 .cardMainContainer{
